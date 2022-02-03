@@ -67,10 +67,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#home">INICIO</a></li>
-          <li><a href="#services">BENEFICIOS</a></li>
-          <li><a href="desp.html">MASCOTAS</a></li>
-          <li><a href="cuidados.html">CUIDADOS</a></li>
+          <li><a href="index.php">INICIO</a></li>
+          <li><a href="#services">MASCOTAS</a></li>
+          <li><a href="cuidados.php">CUIDADOS</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
@@ -78,14 +77,14 @@
 
     <!-- /HOME -->
     <section class="main-home" id="home">
-      <div class="home-page-photo"></div> <!-- Background image -->
+      <div class="home-page-desp"></div> <!-- Background image -->
       <div class="home__header-content">
         <div id="main-home-carousel" class="owl-carousel">
           <div>
-            <h1 class="intro-title"><b><font size=40> El poder de las Mascotas</font></b></h1>
-            <p class="intro-text" align="text-center"><b>Todos aquellos que tenemos la suerte de compartir nuestra vida con un animal sabemos que estos pequeños amigos poco a poco van formando parte de nuestra familia.
-              <br>Nada se compara con la alegría de volver a casa y encontrar un compañero leal. El amor incondicional de una mascota puede brindar más que compañía. </b></p>
-            <a href="#services"><button class ="btn btn-custom" >Comencemos</button></a>
+            <h1 class="intro-title"><b><font size=40>Mascotas más comunes</font></b></h1>
+            <p class="intro-text" align="text-center"><b>En muchos hogares, las mascotas son una parte fundamental de la familia.
+              <br>Animales como los perros o los gatos, conviven con niños y adultos con los que comparten todas sus vivencias. </b></p>
+              <a href="#services"><button class="btn btn-custom">Comencemos</button></a>
           </div><!--slide item like paragraph-->
           </div><!--slide item like paragraph-->
         </div>
@@ -98,7 +97,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="title text-center">BENEFICIOS</h3>
+            <h3 class="title text-center">TIPOS DE MASCOTAS</h3>
             <div class="titleHR"><span></span></div>
           </div>
         </div>
@@ -108,10 +107,10 @@
             <div class="text-center services-item">
               <div class="col-wrapper">
                 <div class="icon-border"> 
-                  <i><img src="images/gat.png" alt="" class="img-fluid"></i> 
+                  <i><img src="images/per.jpg" alt="" class="img-fluid"></i> 
                 </div>
-                <h5>1)</h5>
-                <p>Proporcionan una sensación de cariño incondicional, por eso, son una gran compañía y consuelo.</p>
+                <h5>PERROS</h5>
+                <p> Estos animales se alzan como el animal doméstico por excelencia. Su instinto de protección y la compañía que ofrecen hacen que los perros se conviertan en un miembro más de muchas familias. </p>
               </div>
             </div>
           </div>
@@ -120,10 +119,10 @@
             <div class="text-center services-item">
               <div class="col-wrapper">
                 <div class="icon-border"> 
-                  <i><img src="images/conj.png" alt="" class="img-fluid"></i> 
+                  <i><img src="images/gatiu.png" alt="" class="img-fluid"></i> 
                 </div>
-                <h5>2)</h5>
-                <p>Pueden ayudar a evitar depresiones, ya que su presencia estimula el contacto físico y la comunicación.</p>
+                <h5>GATOS</h5>
+                <p>Son una excelente compañía. Pueden ser juguetones y afectuosos, pero también pueden ser muy independientes.</p>
               </div>
             </div>
           </div>
@@ -132,51 +131,23 @@
             <div class="text-center services-item">
               <div class="col-wrapper">
                 <div class="icon-border"> 
-                  <i><img src="images/perro.png" alt="" class="img-fluid"></i> 
+                  <i><img src="images/cfi.jpg" alt="" class="img-fluid"></i> 
                 </div>
-                <h5>3)</h5>
-                <p>Aumentan el sentimiento de felicidad, ya que, tras compartir un rato de juegos, se experimenta un aumento de oxitocina, se estimula la producción de serotonina y la dopamina. </p>
+                <h5>CONEJOS</h5>
+                <p>Son una gran compañía, y pueden ser muy cariñosos. Los dueños pueden ver lo inteligentes que pueden llegar a ser los conejos.</p>
               </div>
+            </div>
+          </div>
+          <div class="text-center services-item">
+            <div class="col-wrapper">
+              <div class="icon-border"> 
+                <i><img src="images/masco.jpg" alt="" class="img-fluid"></i> 
+              </div>
+              <p><b><font size=4> Existen muchos tipos de mascotas que podrían ser adecuadas para ti, y ser un maravilloso complemento para tu vida.
+                <br>La elección de tu mascota debe basarse en qué tipo de animal se adapta mejor a tu personalidad, a tu estilo de vida y a tus necesidades.</b></p></font>
             </div>
           </div>
         </div> <!--/.row -->
-
-        <div class="row">
-          <div class="col-sm-4"> <!-- Service-item -->
-            <div class="text-center services-item">
-              <div class="col-wrapper">
-                <div class="icon-border"> 
-                  <i><img src="images/prueba.png" alt="" class="img-fluid"></i> 
-                </div>
-                <h5>4)</h5>
-                <p> Evitan el sentimiento de soledad, contar con una mascota en el hogar ayuda a que la persona se sienta más segura de sí misma y más protegida. </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4"> <!-- Service-item -->
-            <div class="text-center services-item">
-              <div class="col-wrapper">
-                <div class="icon-border"> 
-                  <i><img src="images/pato.png" alt="" class="img-fluid"></i> 
-                </div>
-                <h5>5)</h5>
-                <p>Disminuyen los niveles de cortisol (una hormona relacionada con el estrés) y disminuye la presión arterial.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4"> <!-- Service-item -->
-            <div class="text-center services-item">
-              <div class="col-wrapper">
-                <div class="icon-border"> 
-                  <i><img src="images/mascota.png" alt="" class="img-fluid"></i> 
-                </div>
-                <h5>6)</h5>
-                <p>Fomentan la Responsabilidad ya que saber cómo cuidar y alimentar a un animal es parte de ser dueño de una mascota. </p>
-              </div>
-            </div>
-          </div>
         </div> <!--/.row -->
       </div> <!--/.container -->
     </section>
@@ -249,7 +220,5 @@
 
      <!-- Switcher script for demo only -->
     <script type="text/javascript" src="js/switcher.js"></script>
-    <script type="text/javascript" src="js/prueba.js"></script>
-
   </body>
 </html>

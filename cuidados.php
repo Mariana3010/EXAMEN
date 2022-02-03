@@ -67,9 +67,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">INICIO</a></li>
-          <li><a href="#services">MASCOTAS</a></li>
-          <li><a href="cuidados.html">CUIDADOS</a></li>
+          <li><a href="index.php">INICIO</a></li>
+          <li><a href="desp.php">MASCOTAS</a></li>
+          <li><a href="#services">CUIDADOS</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
@@ -77,13 +77,13 @@
 
     <!-- /HOME -->
     <section class="main-home" id="home">
-      <div class="home-page-desp"></div> <!-- Background image -->
+      <div class="home-page-cuidado"></div> <!-- Background image -->
       <div class="home__header-content">
         <div id="main-home-carousel" class="owl-carousel">
           <div>
-            <h1 class="intro-title"><b><font size=40>Mascotas más comunes</font></b></h1>
-            <p class="intro-text" align="text-center"><b>En muchos hogares, las mascotas son una parte fundamental de la familia.
-              <br>Animales como los perros o los gatos, conviven con niños y adultos con los que comparten todas sus vivencias. </b></p>
+            <h1 class="intro-title"><b><font size=40>Cuidados B&aacute;sicos Para Nuestras Mascotas</font></b></h1>
+            <p class="intro-text" align="text-center"><b>La tenencia de un animal de compañía en nuestro hogar implica una serie de responsabilidades relativas a su cuidado y atención que debemos conocer. 
+              <br>A continuación se detallan una serie de recomendaciones relativas a estos aspectos: </b></p>
               <a href="#services"><button class="btn btn-custom">Comencemos</button></a>
           </div><!--slide item like paragraph-->
           </div><!--slide item like paragraph-->
@@ -97,7 +97,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="title text-center">TIPOS DE MASCOTAS</h3>
+            <h3 class="title text-center">CONOCE LOS CUIDADOS QUE NECESITA TU MASCOTA</h3>
             <div class="titleHR"><span></span></div>
           </div>
         </div>
@@ -107,10 +107,10 @@
             <div class="text-center services-item">
               <div class="col-wrapper">
                 <div class="icon-border"> 
-                  <i><img src="images/per.jpg" alt="" class="img-fluid"></i> 
+                  <i><img src="images/lib.jpg" alt="" class="img-fluid"></i> 
                 </div>
-                <h5>PERROS</h5>
-                <p> Estos animales se alzan como el animal doméstico por excelencia. Su instinto de protección y la compañía que ofrecen hacen que los perros se conviertan en un miembro más de muchas familias. </p>
+                <h5></h5>
+                <p>Debes de compartir parte de tu tiempo libre con tu mascota y saber actuar con firmeza ante su posible comportamiento.</p>
               </div>
             </div>
           </div>
@@ -119,10 +119,10 @@
             <div class="text-center services-item">
               <div class="col-wrapper">
                 <div class="icon-border"> 
-                  <i><img src="images/gatiu.png" alt="" class="img-fluid"></i> 
+                  <i><img src="images/aliment.jpg" alt="" class="img-fluid"></i> 
                 </div>
-                <h5>GATOS</h5>
-                <p>Son una excelente compañía. Pueden ser juguetones y afectuosos, pero también pueden ser muy independientes.</p>
+                <h5></h5>
+                <p>Es muy importante para tu mascota que le des una dieta equilibrada para que esta satisfaga sus necesidades energéticas y le proporcione los nutrientes adecuados.</p>
               </div>
             </div>
           </div>
@@ -131,22 +131,57 @@
             <div class="text-center services-item">
               <div class="col-wrapper">
                 <div class="icon-border"> 
-                  <i><img src="images/cfi.jpg" alt="" class="img-fluid"></i> 
+                  <i><img src="images/veter.jpg" alt="" class="img-fluid"></i> 
                 </div>
-                <h5>CONEJOS</h5>
-                <p>Son una gran compañía, y pueden ser muy cariñosos. Los dueños pueden ver lo inteligentes que pueden llegar a ser los conejos.</p>
+                <h5></h5>
+                <p>Como norma general tu mascota debe estar desparasitada y vacunada, la debes llevar como mínimo una vez al año al veterinario.Es importante que en esa visita se le haga una exploración completa del animal.</p>
               </div>
             </div>
           </div>
-          <div class="text-center services-item">
-            <div class="col-wrapper">
-              <div class="icon-border"> 
-                <i><img src="images/masco.jpg" alt="" class="img-fluid"></i> 
+
+          <div class="row">
+            <div class="col-sm-4"> <!-- Service-item -->
+              <div class="text-center services-item">
+                <div class="col-wrapper">
+                  <div class="icon-border"> 
+                    <i><img src="images/hogar.jpg" alt="" class="img-fluid"></i> 
+                  </div>
+                  <h5></h5>
+                  <p>Debes brindarle protección, un lugar seguro donde resguardarse del frio y calor.</p>
+                </div>
               </div>
-              <p><b><font size=4> Existen muchos tipos de mascotas que podrían ser adecuadas para ti, y ser un maravilloso complemento para tu vida.
-                <br>La elección de tu mascota debe basarse en qué tipo de animal se adapta mejor a tu personalidad, a tu estilo de vida y a tus necesidades.</b></p></font>
             </div>
-          </div>
+  
+            <div class="col-sm-4"> <!-- Service-item -->
+              <div class="text-center services-item">
+                <div class="col-wrapper">
+                  <div class="icon-border"> 
+                    <i><img src="images/gatf.jpg" alt="" class="img-fluid"></i> 
+                  </div>
+                  <h5></h5>
+                  <p>Debes mantenerla limpia, libre de pulgas y garrapatas. Debes bañar a tu mascota cada 15 días con jabón especial, recuerda mantener también limpia el área donde habita.</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-sm-4"> <!-- Service-item -->
+              <div class="text-center services-item">
+                <div class="col-wrapper">
+                  <div class="icon-border"> 
+                    <i><img src="images/pase.jpg" alt="" class="img-fluid"></i> 
+                  </div>
+                  <h5></h5>
+                  <p>Necesita de ejercicio esto ayuda a que gaste energía y con ello que haga menos destrozos. Lleva tu mascota a pasear con correa diariamente. No olvides recoger sus necesidades con una bolsita y tirarla a la basura para evitar la contaminación.</p>
+                </div>
+              </div>
+            </div>
+            <div class="text-center services-item">
+              <div class="col-wrapper">
+                <p><b><font size=40>Gracias por visitar este blog!!!</font></b></p>
+                <b><font size=4>Recuerda que una mascota es para querer y proteger, no para desquitar un mal día o por un capricho.
+                  <br>Es un ser vivo que requiere respeto y un hogar en donde ocupe un lugar dentro de la familia. </b></p></font>
+              </div>
+            </div>
         </div> <!--/.row -->
         </div> <!--/.row -->
       </div> <!--/.container -->
@@ -220,5 +255,6 @@
 
      <!-- Switcher script for demo only -->
     <script type="text/javascript" src="js/switcher.js"></script>
+    <script type="text/javascript" src="js/cuidados.js"></script>
   </body>
 </html>

@@ -67,9 +67,10 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">INICIO</a></li>
-          <li><a href="desp.html">MASCOTAS</a></li>
-          <li><a href="#services">CUIDADOS</a></li>
+          <li><a href="#home">INICIO</a></li>
+          <li><a href="#services">BENEFICIOS</a></li>
+          <li><a href="desp.php">MASCOTAS</a></li>
+          <li><a href="cuidados.php">CUIDADOS</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
@@ -77,14 +78,14 @@
 
     <!-- /HOME -->
     <section class="main-home" id="home">
-      <div class="home-page-cuidado"></div> <!-- Background image -->
+      <div class="home-page-photo"></div> <!-- Background image -->
       <div class="home__header-content">
         <div id="main-home-carousel" class="owl-carousel">
           <div>
-            <h1 class="intro-title"><b><font size=40>Cuidados B&aacute;sicos Para Nuestras Mascotas</font></b></h1>
-            <p class="intro-text" align="text-center"><b>La tenencia de un animal de compañía en nuestro hogar implica una serie de responsabilidades relativas a su cuidado y atención que debemos conocer. 
-              <br>A continuación se detallan una serie de recomendaciones relativas a estos aspectos: </b></p>
-              <a href="#services"><button class="btn btn-custom">Comencemos</button></a>
+            <h1 class="intro-title"><b><font size=40> El poder de las Mascotas</font></b></h1>
+            <p class="intro-text" align="text-center"><b>Todos aquellos que tenemos la suerte de compartir nuestra vida con un animal sabemos que estos pequeños amigos poco a poco van formando parte de nuestra familia.
+              <br>Nada se compara con la alegría de volver a casa y encontrar un compañero leal. El amor incondicional de una mascota puede brindar más que compañía. </b></p>
+            <a href="#services"><button class ="btn btn-custom" >Comencemos</button></a>
           </div><!--slide item like paragraph-->
           </div><!--slide item like paragraph-->
         </div>
@@ -97,7 +98,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="title text-center">CONOCE LOS CUIDADOS QUE NECESITA TU MASCOTA</h3>
+            <h3 class="title text-center">BENEFICIOS</h3>
             <div class="titleHR"><span></span></div>
           </div>
         </div>
@@ -107,10 +108,10 @@
             <div class="text-center services-item">
               <div class="col-wrapper">
                 <div class="icon-border"> 
-                  <i><img src="images/lib.jpg" alt="" class="img-fluid"></i> 
+                  <i><img src="images/gat.png" alt="" class="img-fluid"></i> 
                 </div>
-                <h5></h5>
-                <p>Debes de compartir parte de tu tiempo libre con tu mascota y saber actuar con firmeza ante su posible comportamiento.</p>
+                <h5>1)</h5>
+                <p>Proporcionan una sensación de cariño incondicional, por eso, son una gran compañía y consuelo.</p>
               </div>
             </div>
           </div>
@@ -119,10 +120,10 @@
             <div class="text-center services-item">
               <div class="col-wrapper">
                 <div class="icon-border"> 
-                  <i><img src="images/aliment.jpg" alt="" class="img-fluid"></i> 
+                  <i><img src="images/conj.png" alt="" class="img-fluid"></i> 
                 </div>
-                <h5></h5>
-                <p>Es muy importante para tu mascota que le des una dieta equilibrada para que esta satisfaga sus necesidades energéticas y le proporcione los nutrientes adecuados.</p>
+                <h5>2)</h5>
+                <p>Pueden ayudar a evitar depresiones, ya que su presencia estimula el contacto físico y la comunicación.</p>
               </div>
             </div>
           </div>
@@ -131,58 +132,51 @@
             <div class="text-center services-item">
               <div class="col-wrapper">
                 <div class="icon-border"> 
-                  <i><img src="images/veter.jpg" alt="" class="img-fluid"></i> 
+                  <i><img src="images/perro.png" alt="" class="img-fluid"></i> 
                 </div>
-                <h5></h5>
-                <p>Como norma general tu mascota debe estar desparasitada y vacunada, la debes llevar como mínimo una vez al año al veterinario.Es importante que en esa visita se le haga una exploración completa del animal.</p>
+                <h5>3)</h5>
+                <p>Aumentan el sentimiento de felicidad, ya que, tras compartir un rato de juegos, se experimenta un aumento de oxitocina, se estimula la producción de serotonina y la dopamina. </p>
               </div>
             </div>
           </div>
-
-          <div class="row">
-            <div class="col-sm-4"> <!-- Service-item -->
-              <div class="text-center services-item">
-                <div class="col-wrapper">
-                  <div class="icon-border"> 
-                    <i><img src="images/hogar.jpg" alt="" class="img-fluid"></i> 
-                  </div>
-                  <h5></h5>
-                  <p>Debes brindarle protección, un lugar seguro donde resguardarse del frio y calor.</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-sm-4"> <!-- Service-item -->
-              <div class="text-center services-item">
-                <div class="col-wrapper">
-                  <div class="icon-border"> 
-                    <i><img src="images/gatf.jpg" alt="" class="img-fluid"></i> 
-                  </div>
-                  <h5></h5>
-                  <p>Debes mantenerla limpia, libre de pulgas y garrapatas. Debes bañar a tu mascota cada 15 días con jabón especial, recuerda mantener también limpia el área donde habita.</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-sm-4"> <!-- Service-item -->
-              <div class="text-center services-item">
-                <div class="col-wrapper">
-                  <div class="icon-border"> 
-                    <i><img src="images/pase.jpg" alt="" class="img-fluid"></i> 
-                  </div>
-                  <h5></h5>
-                  <p>Necesita de ejercicio esto ayuda a que gaste energía y con ello que haga menos destrozos. Lleva tu mascota a pasear con correa diariamente. No olvides recoger sus necesidades con una bolsita y tirarla a la basura para evitar la contaminación.</p>
-                </div>
-              </div>
-            </div>
-            <div class="text-center services-item">
-              <div class="col-wrapper">
-                <p><b><font size=40>Gracias por visitar este blog!!!</font></b></p>
-                <b><font size=4>Recuerda que una mascota es para querer y proteger, no para desquitar un mal día o por un capricho.
-                  <br>Es un ser vivo que requiere respeto y un hogar en donde ocupe un lugar dentro de la familia. </b></p></font>
-              </div>
-            </div>
         </div> <!--/.row -->
+
+        <div class="row">
+          <div class="col-sm-4"> <!-- Service-item -->
+            <div class="text-center services-item">
+              <div class="col-wrapper">
+                <div class="icon-border"> 
+                  <i><img src="images/prueba.png" alt="" class="img-fluid"></i> 
+                </div>
+                <h5>4)</h5>
+                <p> Evitan el sentimiento de soledad, contar con una mascota en el hogar ayuda a que la persona se sienta más segura de sí misma y más protegida. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4"> <!-- Service-item -->
+            <div class="text-center services-item">
+              <div class="col-wrapper">
+                <div class="icon-border"> 
+                  <i><img src="images/pato.png" alt="" class="img-fluid"></i> 
+                </div>
+                <h5>5)</h5>
+                <p>Disminuyen los niveles de cortisol (una hormona relacionada con el estrés) y disminuye la presión arterial.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4"> <!-- Service-item -->
+            <div class="text-center services-item">
+              <div class="col-wrapper">
+                <div class="icon-border"> 
+                  <i><img src="images/mascota.png" alt="" class="img-fluid"></i> 
+                </div>
+                <h5>6)</h5>
+                <p>Fomentan la Responsabilidad ya que saber cómo cuidar y alimentar a un animal es parte de ser dueño de una mascota. </p>
+              </div>
+            </div>
+          </div>
         </div> <!--/.row -->
       </div> <!--/.container -->
     </section>
@@ -255,6 +249,7 @@
 
      <!-- Switcher script for demo only -->
     <script type="text/javascript" src="js/switcher.js"></script>
-    <script type="text/javascript" src="js/cuidados.js"></script>
+    <script type="text/javascript" src="js/prueba.js"></script>
+
   </body>
 </html>
